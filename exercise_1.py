@@ -10,7 +10,5 @@ def concat(*args, reverse=False):
             res += el
         print(res)
 
-
-elem = ['Hello', ' ', 'Aboba']
 b = {'reverse': True}
-result = concat(*elem, **b)
+concat('Hello', ' ', 'Aboba', **b)
